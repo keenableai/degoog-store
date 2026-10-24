@@ -1,0 +1,15 @@
+{
+  "name": "keenable",
+  "description": "Keenable web search engine for degoog. Works without an API key.",
+  "author": "Keenable",
+  "repo-image": "logo.svg",
+  "engines": [
+    {
+      "path": "engines/keenable",
+      "name": "Keenable",
+      "description": "Web results from the Keenable search API. Keyless by default; an optional API key lifts the public rate limits. Bang: !keenable.",
+      "version": "1.0.0",
+      "minDegoogVersion": "1.1.0"
+    }
+  ]
+}
